@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="ftw.htmlblock">
+
+    <genericsetup:registerProfile
+        name="default"
+        title="ftw.htmlblock default"
+        directory="profiles/default"
+        description="HTML block add-on for ftw.simplelayout"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+</configure>
