@@ -7,7 +7,7 @@
 
     <lawgiver:map_permissions
         action_group="add HTML blocks"
-        permissions="ftw.htmlblock: Add HtmlBlock"
+        permissions="ftw.htmlblock: Add HTML block"
         />
 
 </configure>
