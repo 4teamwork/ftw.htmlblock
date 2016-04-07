@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-04-07 12:09+0000\n"
+"POT-Creation-Date: 2016-04-07 13:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgid "The HTML block renders HTML without escaping it."
 msgstr "Der Inhalt dieses Blocks wird unverändert auf der Webseite ausgegeben."
 
 #: ./ftw/htmlblock/configure.zcml:21
-msgid "ftw.htmlblock default"
+msgid "ftw.htmlblock"
 msgstr ""
 
 #. Default: "Show title"

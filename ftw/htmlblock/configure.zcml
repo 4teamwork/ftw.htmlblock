@@ -14,7 +14,7 @@
 
     <genericsetup:registerProfile
         name="default"
-        title="ftw.htmlblock default"
+        title="ftw.htmlblock"
         directory="profiles/default"
         description="HTML block (add-on for ftw.simplelayout)"
         provides="Products.GenericSetup.interfaces.EXTENSION"
