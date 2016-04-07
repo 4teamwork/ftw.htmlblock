@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-04-07 12:05+0000\n"
+"POT-Creation-Date: 2016-04-07 12:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 msgid "HTML block"
 msgstr "HTML-Block"
 
-#: ./ftw/htmlblock/configure.zcml:19
+#: ./ftw/htmlblock/configure.zcml:21
 msgid "HTML block (add-on for ftw.simplelayout)"
 msgstr "HTML-Block (Erweiterung für ftw.simplelayout)"
 
@@ -26,7 +26,7 @@ msgstr "HTML-Block (Erweiterung für ftw.simplelayout)"
 msgid "The HTML block renders HTML without escaping it."
 msgstr "Der Inhalt dieses Blocks wird unverändert auf der Webseite ausgegeben."
 
-#: ./ftw/htmlblock/configure.zcml:19
+#: ./ftw/htmlblock/configure.zcml:21
 msgid "ftw.htmlblock default"
 msgstr ""
 

@@ -20,7 +20,7 @@
     <property name="klass">ftw.htmlblock.contents.htmlblock.HtmlBlock</property>
 
     <!-- add permission -->
-    <property name="add_permission">cmf.AddPortalContent</property>
+    <property name="add_permission">ftw.htmlblock.AddHtmlBlock</property>
 
     <!-- enabled behaviors -->
     <property name="behaviors">
