@@ -1,0 +1,9 @@
+<html xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      tal:omit-tag="python: 1"
+      i18n:domain="ftw.htmlblock">
+
+    <h2 tal:content="here/Title" tal:condition="here/show_title " />
+    <p>TODO: Replace this static placeholder.</p>
+
+</html>
