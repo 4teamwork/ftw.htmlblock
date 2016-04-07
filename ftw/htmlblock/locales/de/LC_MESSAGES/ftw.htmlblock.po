@@ -26,9 +26,24 @@ msgstr "HTML-Block (Erweiterung für ftw.simplelayout)"
 msgid "The HTML block renders HTML without escaping it."
 msgstr "Der Inhalt dieses Blocks wird unverändert auf der Webseite ausgegeben."
 
+#. Default: "This HTML block is empty. Please add some content or remove the block."
+#: ./ftw/htmlblock/browser/templates/htmlblock.pt:12
+msgid "empty_htmlblock_label"
+msgstr "Dieser HTML-Block ist leer. Bitte Inhalt hinzufügen oder Block entfernen."
+
 #: ./ftw/htmlblock/configure.zcml:21
 msgid "ftw.htmlblock"
 msgstr ""
+
+#. Default: "The content will be rendered without being escaped."
+#: ./ftw/htmlblock/contents/htmlblock.py:28
+msgid "htmlblock_content_description"
+msgstr "Der Inhalt dieses Feldes wird unverändert auf der Webseite ausgegeben."
+
+#. Default: "Content"
+#: ./ftw/htmlblock/contents/htmlblock.py:27
+msgid "htmlblock_content_label"
+msgstr "Inhalt (HTML)"
 
 #. Default: "Show title"
 #: ./ftw/htmlblock/contents/htmlblock.py:21

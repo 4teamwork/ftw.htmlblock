@@ -23,6 +23,14 @@ class IHtmlBlockSchema(form.Schema):
         required=False,
     )
 
+    content = schema.Text(
+        title=_(u'htmlblock_content_label', default=u'Content'),
+        description=_(u'htmlblock_content_description',
+                      default=u'The content will be rendered without '
+                              u'being escaped.'),
+        required=False,
+    )
+
     form.order_before(title='*')
 
 alsoProvides(IHtmlBlockSchema, IFormFieldProvider)

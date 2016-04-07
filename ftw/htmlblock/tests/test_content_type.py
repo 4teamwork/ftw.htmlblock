@@ -17,13 +17,16 @@ class TestHtmlBlockContentType(FunctionalTestCase):
 
         browser.login().visit(content_page)
         factoriesmenu.add('HTML block')
-        browser.fill({'Title': u'Title of the HTML block'})
+        browser.fill({
+            'Title': u'Title of the HTML block',
+            'Content': u'<p>The content of the HTML block.</p>',
+        })
 
         browser.find_button_by_label('Save').click()
         browser.visit(content_page)
 
         self.assertTrue(len(browser.css('.sl-block')), 'Expect one block')
         self.assertEqual(
-            ['TODO: Replace this static placeholder.'],
+            ['The content of the HTML block.'],
             browser.css('div.ftw-htmlblock-htmlblock .sl-block-content').text
         )

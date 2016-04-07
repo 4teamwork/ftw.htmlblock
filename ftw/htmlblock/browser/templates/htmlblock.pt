@@ -3,7 +3,13 @@
       tal:omit-tag="python: 1"
       i18n:domain="ftw.htmlblock">
 
-    <h2 tal:content="here/Title" tal:condition="here/show_title " />
-    <p>TODO: Replace this static placeholder.</p>
+    <h2 tal:condition="view/block_title"
+        tal:content="view/block_title" />
+
+    <tal:content tal:condition=" context/content"
+                 tal:replace="structure  context/content"/>
+
+    <div tal:condition="python: view.can_add() and not context.content"
+         i18n:translate="empty_htmlblock_label">This HTML block is empty. Please add some content or remove the block.</div>
 
 </html>
