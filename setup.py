@@ -5,7 +5,9 @@ version = '1.0.0a1.dev0'
 maintainer = 'Martin Baechtold'
 
 tests_require = [
+    'ftw.builder',
     'ftw.testing',
+    'ftw.testbrowser',
     'plone.app.testing',
     'plone.testing',
 ]
