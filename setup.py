@@ -51,6 +51,7 @@ setup(
     install_requires=[
         'ftw.simplelayout [contenttypes]',
         'setuptools',
+        'plone.api>=1.3.0',
         'plone.dexterity',
         'plone.app.dexterity',
         'Plone',
