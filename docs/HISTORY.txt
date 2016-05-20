@@ -5,8 +5,8 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Prevent iframe from stopping event bubbling in IE
+  [Kevin Bieri]
 
 1.0.0 (2016-05-20)
 ------------------
