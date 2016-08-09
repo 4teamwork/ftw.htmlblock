@@ -5,8 +5,12 @@ Changelog
 1.0.2 (unreleased)
 ------------------
 
+- Remove metadata.xml-dependencie to ftw.simplelayout.
+  This package is an addon of ftw.simplelayout and should not install it.
+  [elioschmutz]
+
 - Add suport for iframe tags on MS Edge
-  [raphael-s] 
+  [raphael-s]
 
 
 1.0.1 (2016-05-24)
