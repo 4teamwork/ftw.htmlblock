@@ -2,6 +2,5 @@
 <metadata>
     <version>1000</version>
     <dependencies>
-        <dependency>profile-ftw.simplelayout.contenttypes:default</dependency>
     </dependencies>
 </metadata>

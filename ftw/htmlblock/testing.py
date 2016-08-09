@@ -26,6 +26,7 @@ class FtwHtmlBlockLayer(PloneSandboxLayer):
 
     def setUpPloneSite(self, portal):
         # Install into Plone site using portal_setup
+        applyProfile(portal, 'ftw.simplelayout.contenttypes:default')
         applyProfile(portal, 'ftw.htmlblock:default')
 
 

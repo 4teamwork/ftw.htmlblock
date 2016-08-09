@@ -4,6 +4,9 @@
 Introduction
 ============
 
+*This package is an addon for `ftw.simplelayout <http://github.com/4teamwork/ftw.simplelayout>`_. Please make sure you
+already installed `ftw.simplelayout` on your plone site before installing this addon.*
+
 HTML blocks allow you to add arbitrary, unfiltered HTML to a content page.
 
 The HTML is not escaped when rendered on the content page so you need to be
