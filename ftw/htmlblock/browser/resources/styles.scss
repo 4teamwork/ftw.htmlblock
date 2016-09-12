@@ -9,3 +9,7 @@
 @include ie-only(".sl-can-edit .ftw-htmlblock-htmlblock iframe") {
   pointer-events: none;
 }
+
+textarea#form-widgets-content {
+    min-height: 12em;
+}
