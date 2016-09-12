@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.4 (unreleased)
+1.0.4 (2016-09-12)
 ------------------
 
 - Enlarge textarea for html-block content.
