@@ -13,14 +13,6 @@ The HTML is not escaped when rendered on the content page so you need to be
 especially careful what you do. By default only users having the role
 "Manager" are allowed to add HTML blocks.
 
-Compatibility
--------------
-
-Plone 4.3.x
-
-.. image:: https://jenkins.4teamwork.ch/job/ftw.htmlblock-master-test-plone-4.3.x.cfg/badge/icon
-   :target: https://jenkins.4teamwork.ch/job/ftw.htmlblock-master-test-plone-4.3.x.cfg
-
 
 Installation
 ============
