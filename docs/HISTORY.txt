@@ -5,7 +5,7 @@ Changelog
 1.0.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Make HtmlBlock addable on plone site per default [raphael-s]
 
 
 1.0.4 (2016-09-12)
