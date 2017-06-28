@@ -49,6 +49,7 @@ setup(
     zip_safe=False,
 
     install_requires=[
+        'ftw.iframefix',
         'ftw.simplelayout [contenttypes]',
         'setuptools',
         'plone.api>=1.3.0',
