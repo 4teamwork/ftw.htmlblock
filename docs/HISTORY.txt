@@ -10,6 +10,8 @@ Changelog
 - Install ftw.iframefix
   [Kevin Bieri]
 
+- Update to plone 5.1 [busykoala]
+
 
 1.0.5 (2017-03-07)
 ------------------
