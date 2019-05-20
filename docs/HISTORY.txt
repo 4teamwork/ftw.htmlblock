@@ -5,6 +5,8 @@ Changelog
 1.0.6 (unreleased)
 ------------------
 
+- Define template in view, not in zcml. [jone]
+
 - Add macros and slots to block views for easy customization. [jone]
 
 - Make iframe fixes compatible with ftw.iframefix 2.0. [Kevin Bieri]
