@@ -12,7 +12,6 @@
         name="block_view"
         permission="zope2.View"
         class=".htmlblock.HtmlBlockView"
-        template="templates/htmlblock.pt"
         />
 
 </configure>
