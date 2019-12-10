@@ -1,0 +1,17 @@
+{
+  "name": "ftw.htmlblock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:4teamwork/ftw.htmlblock.git",
+  "author": "4teamwork AG <info@4teamwork.ch>",
+  "license": "GPL",
+  "scripts": {
+    "build": "r.js -o build.js",
+    "build-js": "r.js -o build.js",
+    "watch": "chokidar \"./ftw/htmlblock/browser/resources/*.js\" -i \"**/*-compiled.js\" -c \"r.js -o build.js;\""
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0",
+    "requirejs": "^2.3.6"
+  }
+}

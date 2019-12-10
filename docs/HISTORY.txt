@@ -6,6 +6,7 @@ Changelog
 ------------------
 
 - Plone 5: use registry instead of properties. [jone]
+- Provide precompiled bundle [Nachtalb]
 
 
 1.1.0 (2019-09-04)
