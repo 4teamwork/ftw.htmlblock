@@ -1,5 +1,13 @@
 <registry>
 
+    <record name="plone.types_not_searched"
+            interface="Products.CMFPlone.interfaces.controlpanel.ISearchSchema"
+            field="types_not_searched">
+        <value purge="false">
+            <element>ftw.htmlblock.HtmlBlock</element>
+        </value>
+    </record>
+
     <records prefix="plone.resources/htmlblock"
              interface='Products.CMFPlone.interfaces.IResourceRegistry'>
         <value key="js">++resource++ftw.htmlblock/iframe_check.js</value>
